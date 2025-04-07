@@ -16,7 +16,7 @@ public class UITest {
 		driver.manage().window().maximize();
 		driver.get("https://www.orangehrm.com/");
 		String ActualTitle = driver.getTitle();
-		String ExpectedTitle = "Human Resources Management Software | OrangeHRM";
+		String ExpectedTitle = "Human Resources Management Software | OrangeHRM HR Software";
 		Assert.assertEquals(ExpectedTitle, ActualTitle);
 		// Assert.assertTrue(driver.getTitle().contains("Human Resources Management
 		// Software | OrangeHRM"), "Title does not match");
